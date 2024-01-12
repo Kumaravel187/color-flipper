@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="UTF-8" />
+    <!-- Configure viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link external stylesheet for styling -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- Preconnect to Google Fonts for improved performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Import Open Sans font styles from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Set the title of the document -->
+    <title>Kumaravel - Hex Filpper</title>
+  </head>
+  <body class="body">
+    <!-- Navigation section with links to color flipper and simple hex pages -->
+    <nav class="nav">
+      <a href="./index.html" class="nav__link">color flipper</a>
+      <a href="./hex.html" class="nav__link">simple hex</a>
+    </nav>
+    <!-- Main content section -->
+    <main class="main">
+      <!-- Section with a paragraph displaying background color and a button -->
+      <section class="main__section">
+        <p class="main__section--bg">background color: pink</p>
+        <a href="#" class="main__section--btn">click me</a>
+      </section>
+    </main>
+    <!-- Include JavaScript module for hex flipping functionality -->
+    <script type="module" src="./hex.js"></script>
+  </body>
+</html>
