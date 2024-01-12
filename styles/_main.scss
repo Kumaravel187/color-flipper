@@ -36,7 +36,7 @@
     &__section {
       width: 100%;
       height: 10em;
-      max-width: 22em;
+      max-width: 14em;
       //   border: 1px solid #000;
       display: flex;
       flex-direction: column;
@@ -70,6 +70,16 @@
         &:hover {
           background-color: lighten($color: #000000, $amount: 45%);
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 32em) {
+  .body {
+    .main {
+      &__section {
+        max-width: 22em;
       }
     }
   }
