@@ -1,6 +1,6 @@
 # Simple Color Generator Project
 
-This project consists of two types of color generator projects. One uses inbuilt CSS colors from an object, and the other is a random hex color generator.
+This project consists of two types of color generator projects. One uses inbuilt CSS colors from an object, and the other is a random hex color generator. Feel free to use this repo :)
 
 ## Getting Started
 
